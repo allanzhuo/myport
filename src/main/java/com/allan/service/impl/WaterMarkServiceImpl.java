@@ -294,8 +294,6 @@ public class WaterMarkServiceImpl implements WaterMarkService{
 				x+=widthLogo+100;
 			}
 			graphics2d.dispose();
-
-			graphics2d.dispose();
 			os = new FileOutputStream(UPLOAD_PATH+"/"+imageFileName);
 			//创建图像编码工具类
 			JPEGImageEncoder en = JPEGCodec.createJPEGEncoder(os);
